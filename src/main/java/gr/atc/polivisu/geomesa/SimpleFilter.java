@@ -1,6 +1,6 @@
-package gr.atc.polivisu;
+package gr.atc.polivisu.geomesa;
 
-import gr.atc.polivisu.model.JWTSecret;
+import gr.atc.polivisu.geomesa.model.JWTSecret;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureException;

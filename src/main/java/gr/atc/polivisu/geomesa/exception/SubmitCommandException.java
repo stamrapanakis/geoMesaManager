@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gr.atc.polivisu.exception;
+package gr.atc.polivisu.geomesa.exception;
 
 /**
  *

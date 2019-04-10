@@ -11,7 +11,7 @@
 	<groupId>gr.atc.polivisu</groupId>
 	<artifactId>geomesamanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>geomesamanager</name>
+	<name>geoMesaManager</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

@@ -1,11 +1,11 @@
 /**
  * 
  */
-package gr.atc.polivisu.controller;
+package gr.atc.polivisu.geomesa.controller;
 
-import gr.atc.polivisu.exception.SubmitCommandException;
-import gr.atc.polivisu.model.Command;
-import gr.atc.polivisu.service.CommandService;
+import gr.atc.polivisu.geomesa.exception.SubmitCommandException;
+import gr.atc.polivisu.geomesa.model.Command;
+import gr.atc.polivisu.geomesa.service.CommandService;
 import io.jsonwebtoken.Claims;
 import javax.servlet.http.HttpServletRequest;
 import org.slf4j.LoggerFactory;

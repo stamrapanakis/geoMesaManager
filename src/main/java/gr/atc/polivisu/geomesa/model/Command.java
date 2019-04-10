@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gr.atc.polivisu.model;
+package gr.atc.polivisu.geomesa.model;
 
 /**
  * Represents a command submitted by a user

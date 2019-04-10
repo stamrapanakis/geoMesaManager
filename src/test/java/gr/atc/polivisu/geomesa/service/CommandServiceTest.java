@@ -1,10 +1,11 @@
 /**
  * 
  */
-package gr.atc.polivisu.service;
+package gr.atc.polivisu.geomesa.service;
 
-import gr.atc.polivisu.exception.SubmitCommandException;
-import gr.atc.polivisu.model.Command;
+import gr.atc.polivisu.geomesa.service.CommandService;
+import gr.atc.polivisu.geomesa.exception.SubmitCommandException;
+import gr.atc.polivisu.geomesa.model.Command;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
@@ -67,7 +68,7 @@ public class CommandServiceTest {
 
     /**
      * Test of submitCommand method, of class CommandService.
-     * @throws gr.atc.polivisu.exception.SubmitCommandException
+     * @throws gr.atc.polivisu.geomesa.exception.SubmitCommandException
      */
     @Test
     public void testSubmitCommand() throws SubmitCommandException {

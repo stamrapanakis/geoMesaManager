@@ -1,4 +1,4 @@
-package gr.atc.polivisu.model;
+package gr.atc.polivisu.geomesa.model;
 
 public class JWTSecret {
 

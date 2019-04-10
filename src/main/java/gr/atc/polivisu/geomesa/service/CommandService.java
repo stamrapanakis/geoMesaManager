@@ -1,14 +1,14 @@
 /**
  * 
  */
-package gr.atc.polivisu.service;
+package gr.atc.polivisu.geomesa.service;
 
 import java.util.HashMap;
 import java.util.Map;
 import com.auth0.jwt.JWTSigner;
-import gr.atc.polivisu.exception.SubmitCommandException;
-import gr.atc.polivisu.model.Command;
-import gr.atc.polivisu.model.JWTSecret;
+import gr.atc.polivisu.geomesa.exception.SubmitCommandException;
+import gr.atc.polivisu.geomesa.model.Command;
+import gr.atc.polivisu.geomesa.model.JWTSecret;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -41,7 +41,7 @@ public class CommandService {
      * @param username
      * @param command
      * @return 
-     * @throws gr.atc.polivisu.exception.SubmitCommandException 
+     * @throws gr.atc.polivisu.geomesa.exception.SubmitCommandException 
      */
     public String submitCommand(String username, Command command) throws SubmitCommandException {
         

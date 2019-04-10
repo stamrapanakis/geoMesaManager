@@ -1,4 +1,4 @@
-package gr.atc.polivisu;
+package gr.atc.polivisu.geomesa;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
